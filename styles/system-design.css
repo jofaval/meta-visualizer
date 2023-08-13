@@ -2,10 +2,15 @@
   /* https://coolors.co/2b2d42-92dce5-f8f7f9-f7ec59-ff66d8 */
   /* CSS HSL */
   --space-cadet: hsla(235, 21%, 21%, 1);
+  --space-cadet-dark: hsla(235, 21%, 11%, 1);
   --non-photo-blue: hsla(187, 61%, 74%, 1);
+  --non-photo-blue-dark: hsla(187, 61%, 64%, 1);
   --seasalt: hsla(270, 14%, 97%, 1);
+  --seasalt-dark: hsla(270, 14%, 87%, 1);
   --maize: hsla(56, 91%, 66%, 1);
+  --maize-dark: hsla(56, 71%, 50%, 1);
   --rose-pink: hsla(315, 100%, 70%, 1);
+  --rose-pink-dark: hsla(315, 100%, 60%, 1);
 
   --spacing-3: 5px;
   --spacing-5: 15px;

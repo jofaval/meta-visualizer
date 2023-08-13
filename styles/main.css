@@ -12,6 +12,8 @@
   box-shadow: 0 0 var(--spacing-5) rgba(0, 0, 0, 0.3);
   color: var(--seasalt);
   background-color: var(--space-cadet);
+
+  min-width: 350px;
 }
 
 .main-section form h2 {
@@ -19,11 +21,31 @@
   margin: 0 0 var(--spacing-5) 0;
 }
 
-.main-section form caption,
 .main-section form .form-group {
   margin-bottom: var(--spacing-5);
+  width: 100%;
+  display: flex;
+}
+
+.main-section form .form-group input {
+  width: 100%;
 }
 
 .form-label::after {
   content: ":";
+}
+
+.container {
+  background-color: var(--seasalt);
+}
+
+.meta-image {
+  width: 400px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.meta-title {
+  margin: none;
+  padding: var(--spacing-3);
 }
