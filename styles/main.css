@@ -1,0 +1,29 @@
+.main-section {
+  padding: var(--spacing-5);
+}
+
+.main-section form {
+  padding: var(--spacing-5);
+  margin-bottom: var(--spacing-5);
+
+  border-radius: var(--spacing-3);
+  overflow: hidden;
+
+  box-shadow: 0 0 var(--spacing-5) rgba(0, 0, 0, 0.3);
+  color: var(--seasalt);
+  background-color: var(--space-cadet);
+}
+
+.main-section form h2 {
+  font-weight: bold;
+  margin: 0 0 var(--spacing-5) 0;
+}
+
+.main-section form caption,
+.main-section form .form-group {
+  margin-bottom: var(--spacing-5);
+}
+
+.form-label::after {
+  content: ":";
+}

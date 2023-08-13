@@ -1,0 +1,19 @@
+button,
+input[type="submit"] {
+  cursor: pointer;
+
+  border: none;
+  border-radius: var(--spacing-3);
+  overflow: none;
+
+  padding: var(--spacing-3);
+  background-color: var(--maize);
+
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+input {
+  background-color: var(--seasalt);
+}

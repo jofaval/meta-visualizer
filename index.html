@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meta Visualizer</title>
+    <link rel="stylesheet" href="styles/system-design.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+
+  <body>
+    <header><h1>Meta visualizer</h1></header>
+
+    <main>
+      <section class="main-section">
+        <header>
+          <form id="metaDetailsForm">
+            <h2>Meta details</h2>
+
+            <div class="form-group">
+              <label for="url" class="form-label">URL</label>
+              <input type="text" name="url" name="id" class="form-input" />
+            </div>
+
+            <div class="form-group">
+              <label for="getCoverImgUrl" class="form-label"
+                >Get cover img's URL</label
+              >
+              <input
+                type="checkbox"
+                name="getCoverImgUrl"
+                name="id"
+                class="form-input" />
+            </div>
+
+            <input type="submit" value="Visualize" />
+          </form>
+        </header>
+
+        <main>
+          <h2>Meta content</h2>
+
+          <div id="resultVisualizer"></div>
+        </main>
+      </section>
+    </main>
+
+    <footer>
+      jofaval &copy;
+
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+    </footer>
+  </body>
+
+  <script src="src/main.js"></script>
+</html>
